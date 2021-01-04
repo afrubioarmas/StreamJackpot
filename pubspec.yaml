@@ -1,4 +1,4 @@
-name: delivery_app
+name: StreamJackpot
 description: A new Flutter project.
 
 # The following defines the version and build number for your application.
@@ -32,11 +32,11 @@ dependencies:
 
 
   #Firebase and storage Begin
-  firebase_core: ^0.4.3+1
-  cloud_firestore: ^0.13.1+1
+  #firebase_core: ^0.4.3+1
+  #cloud_firestore: ^0.13.1+1
   #firebase_analytics: 5.0.2
-  firebase_auth: ^0.14.0+5
-  firebase_storage: ^3.0.6
+  #firebase_auth: ^0.14.0+5
+  #firebase_storage: ^3.0.6
   #Firebase and storage End
 
   #Authentication Begin
@@ -52,6 +52,8 @@ dependencies:
   permission_handler: ^3.3.0
   flutter_image_compress: ^0.6.8
   image_picker: ^0.6.1+8
+  flutter_webrtc: ^0.5.7
+  flutter_foreground_plugin: ^0.4.0
   #Other end
 
 
